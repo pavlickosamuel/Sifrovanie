@@ -15,7 +15,6 @@ def sprava_to_bin(message):
         output += temp
     return output
 
-
 def picture_shredder(bin_message, picture):
     pixels = picture.load()
     for i in range(len(bin_message)):
