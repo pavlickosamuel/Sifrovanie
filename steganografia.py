@@ -1,5 +1,3 @@
-from email.mime import message
-
 from PIL import Image
 obr = Image.open("Priroda.png")
 sprava = input("Zadejte správu, ktoru chcete zašifrovať: ")
