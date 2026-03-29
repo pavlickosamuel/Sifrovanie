@@ -1,6 +1,6 @@
 from PIL import Image
 obr = Image.open("Priroda.png")
-sprava = input("Zadejte správu, ktoru chcete zašifrovať: ")
+sprava = input("Zadajte správu, ktorú chcete zašifrovať: ")
 
 def sprava_to_bin(message):
     message += "#"
